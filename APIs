@@ -1,83 +1,53 @@
 {
-  "ui_layout": {
-    "top_section": {
-      "overall_pond_health": {
-        "text": "Overall Water Health: Good",
-        "average_fish_health": "92%"
+  "OverallWaterHealth": "Good",
+  "WaterHealthData": {
+    "RightUpper": [
+      {
+        "pH": 6.8,
+        "TemperatureCelsius": 25.0,
+        "OxygenMgPerL": 8.2
       }
+    ],
+    "RightLower": [
+      {
+        "pH": 7.0,
+        "TemperatureCelsius": 24.0,
+        "OxygenMgPerL": 8.4
+      }
+    ],
+    "LeftUpper": [
+      {
+        "pH": 7.1,
+        "TemperatureCelsius": 24.7,
+        "OxygenMgPerL": 8.6
+      }
+    ],
+    "LeftLower": [
+      {
+        "pH": 6.9,
+        "TemperatureCelsius": 25.2,
+        "OxygenMgPerL": 8.3
+      }
+    ]
+  },
+  "FishHealthOverview": [
+    {
+      "Species": "Rohu",
+      "Count": 50,
+      "HealthPercentage": 95,
+      "Status": "Healthy"
     },
-    "central_section": {
-      "central_part": {
-        "title": "Central Part: Healthy",
-        "water_health": {
-          "ph": "7.2",
-          "temperature": "24.5°C",
-          "oxygen_level": "8.5 mg/L"
-        }
-      },
-      "right_upper": {
-        "title": "Right Upper: Moderate",
-        "water_health": {
-          "ph": "6.8",
-          "temperature": "25.0°C",
-          "oxygen_level": "8.2 mg/L"
-        }
-      },
-      "right_lower": {
-        "title": "Right Lower: Healthy",
-        "water_health": {
-          "ph": "7",
-          "temperature": "24.0°C",
-          "oxygen_level": "8.4 mg/L"
-        }
-      },
-      "left_upper": {
-        "title": "Left Upper: Healthy",
-        "water_health": {
-          "ph": "7.1",
-          "temperature": "24.7°C",
-          "oxygen_level": "8.6 mg/L"
-        }
-      },
-      "left_lower": {
-        "title": "Left Lower: Moderate",
-        "water_health": {
-          "ph": "6.9",
-          "temperature": "25.2°C",
-          "oxygen_level": "8.3 mg/L"
-        }
-      }
+    {
+      "Species": "Mirigal",
+      "Count": 40,
+      "HealthPercentage": 89,
+      "Status": "Moderate"
     },
-    "bottom_section": {
-      "fish_health_overview": {
-        "rohu": {
-          "icon": "rohu_icon.png",
-          "text": {
-            "count": "50",
-            "average_health": "95%",
-            "health_status": "Healthy"
-          },
-          "health_bar_color": "green"
-        },
-        "mirigal": {
-          "icon": "mirigal_icon.png",
-          "text": {
-            "count": "40",
-            "average_health": "89%",
-            "health_status": "Moderate"
-          },
-          "health_bar_color": "yellow"
-        },
-        "catla": {
-          "icon": "catla_icon.png",
-          "text": {
-            "count": "30",
-            "average_health": "92.5%",
-            "health_status": "Healthy"
-          },
-          "health_bar_color": "green"
-        }
-      }
+    {
+      "Species": "Catla",
+      "Count": 30,
+      "HealthPercentage": 92.5,
+      "Status": "Healthy"
     }
-  }
+  ]
 }
