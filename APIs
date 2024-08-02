@@ -1,1 +1,31 @@
-
+{
+  "Fishpond": [
+    {
+      "OverallWaterHealth": "Good",
+      "RuPH": "7.0",
+      "RuTemp": "27.2 °C",
+      "RuOxygen": "8.0 mg/L",
+      "CpPH": "7.7",
+      "CpTemp": "28.2 °C",
+      "CpOxygen": "8.2 mg/L",
+      "LuPH": "7.5",
+      "LuTemp": "24.2 °C",
+      "LuOxygen": "8.7 mg/L",
+      "RlPH": "7.4",
+      "RlTemp": "22.2 °C",
+      "RlOxygen": "7.0 mg/L",
+      "LlPH": "7.8",
+      "LlTemp": "25.2 °C",
+      "LlOxygen": "8.1 mg/L",
+      "RohuCount": "30",
+      "RohuHealth": "89%",
+      "RohuStatus": "Healthy",
+      "MirigalCount": "35",
+      "MirigalHealth": "82%",
+      "MirigalStatus": "Healthy",
+      "CatlaCount": "27",
+      "CatlaHealth": "85%",
+      "CatlaStatus": "Healthy"
+    }
+  ]
+}
